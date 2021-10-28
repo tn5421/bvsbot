@@ -1,6 +1,7 @@
 import time
 import json
 import discord
+import datetime
 
 from discord.ext import commands
 
@@ -14,12 +15,8 @@ bot = commands.Bot(command_prefix="!", description="A simple WKAI bot written by
 wk_list = ["Craftworld at War", "AspenStory",
            "ADAM", "FarmVale", "ForeverQuest"]
 
-def distance(list1, list2):
-    j = (list2 - list1) % 5
-    return j
-
-def get_rday():
-    return (int(time.strftime("%d")))
+def get_rday(offsetdays=0):
+    return (int((datetime.datetime.now(datetime.timezone(-timedelta(hours=5)))+datetime.timedelta(days=offsetdays)).strftime("%d")))
 
 # def wk_day():
 #     return (get_rday() % 5)
@@ -41,60 +38,46 @@ async def wkai(ctx):
 
 @bot.command(name='cow')
 async def cow(ctx):
-    cow_wkai = "The next Craftworld of War summoning is in "
-    wk_day = get_rday() % 5
-    if wk_day == 0:
-        cow_wkai += "5 Days"
-    else:
-        cow_wkai += (str(5 - wk_day)) + " Day(s)"
+    for offset in range(1,10):
+        if (get_rday(offset) % 5 == 0):
+           cow_wkai = "The next Craftworld of War summoning is in {0} Day(s)".format(offset)
+           break;
     await ctx.send(cow_wkai)
     print("Client should have posted next CoW WKAI")
 
 @bot.command(name='aspen')
 async def aspen(ctx):
-    aspen_wkai = "The next AspenStory summoning is in "
-    wk_day = get_rday() % 5
-    wk_distance = distance(wk_day, 1)
-    if wk_day == 1:
-        aspen_wkai += "5 Days"
-    else:
-        aspen_wkai += (str(wk_distance)) + " Day(s)"
+    for offset in range(1,10):
+        if (get_rday(offset) % 5 == 1):
+           aspen_wkai = "The next AspenStory summoning is in {0} Day(s)".format(offset)
+           break;
     await ctx.send(aspen_wkai)
     print("Client should have posted next Aspen WKAI")
 
 @bot.command(name='adam')
 async def adam(ctx):
-    adam_wkai = "The next ADAM summoning is in "
-    wk_day = get_rday() % 5
-    wk_distance = distance(wk_day, 2)
-    if wk_day == 2:
-        adam_wkai += "5 Days"
-    else:
-        adam_wkai += (str(wk_distance)) + " Day(s)"
+    for offset in range(1,10):
+        if (get_rday(offset) % 5 == 2):
+           adam_wkai = "The next ADAM summoning is in {0} Day(s)".format(offset)
+           break;
     await ctx.send(adam_wkai)
     print("Client should have posted next ADAM WKAI")
 
 @bot.command(name='farm')
 async def farm(ctx):
-    farm_wkai = "The next FarmVale summoning is in "
-    wk_day = get_rday() % 5
-    wk_distance = distance(wk_day, 3)
-    if wk_day == 3:
-        farm_wkai += "5 Days"
-    else:
-        farm_wkai += (str(wk_distance)) + " Day(s)"
+    for offset in range(1,10):
+        if (get_rday(offset) % 5 == 3):
+           farm_wkai = "The next FarmVale summoning is in {0} Day(s)".format(offset)
+           break;
     await ctx.send(farm_wkai)
     print("Client should have posted next FarmVille WKAI")
 
 @bot.command(name='fq')
 async def fq(ctx):
-    fq_wkai = "The next ForeverQuest summoning is in "
-    wk_day = get_rday() % 5
-    wk_distance = distance(wk_day, 4)
-    if wk_day == 4:
-        fq_wkai += "5 Days"
-    else:
-        fq_wkai += (str(wk_distance)) + " Day(s)"
+    for offset in range(1,10):
+        if (get_rday(offset) % 5 == 4):
+           fq_wkai = "The next ForeverQuest summoning is in {0} Day(s)".format(offset)
+           break;
     await ctx.send(fq_wkai)
     print("Client should have posted next FQ WKAI")
 
