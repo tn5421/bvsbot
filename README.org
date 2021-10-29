@@ -1,0 +1,38 @@
+#+DESCRIPTION: This is the readme for the BvSBot Project.
+#+AUTHOR: tn5421
+#+OPTIONS: num:nil ^:{}
+
+* BvS Bot
+
+A discord bot built for the Billy vs SNAKEMAN community!
+
+** Dependencies
+
+- An installation of Python 3.9.x with ssl compiled.
+- The following pip packages: discord, yaml, datetime
+- Access to the Discord Developer portal strongly recommended, to generate your own bot key.
+
+** Usage
+
+*** Windows
+
+Run main.py as a program via double-click, through Python 3.9 IDLE, or via your IDE of choice.
+
+*** *nix based systems
+
+Open your preferred terminal and run `python main.py`
+ Feel free to use tmux, gnu screen, or any other form of multiplexing.
+
+** Contributing
+
+1. Fork [[https://github.com/tn5421/bvsbot/fork][BvSBot]].
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -m 'some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Create a new Pull Request
+
+** Contributors
+
+- [[https://github.com/tn5421][tn5421]] - The idea's guy, Python Newbie
+- Mitillos - Mathemagics
+- [[https://github.com/yichizhng][yichizhng]] - sleepy coder

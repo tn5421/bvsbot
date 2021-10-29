@@ -1,18 +1,18 @@
-import json
+import yaml
 import discord
 import os
 
 from discord.ext import commands
 
-settings = json.loads(open('settings.json').read())
-token = settings['token']
+data = yaml.load(open("settings.yaml", 'r'))
+token = str(data.get('token'))
 
-client = commands.Bot(command_prefix="!", description="A simple WKAI bot written by tn5421, with help from Mitillos")
+client = commands.Bot(command_prefix="!", description="A simple WKAI bot written for "\
+  + "you guys, the community!")
 
 for file in os.listdir("modules"):
-    if file.endswith(".py"):
-        file = file[:-3]
-        client.load_extension(f"modules.{file}")
+  if file.endswith(".py"):
+    file = file[:-3]
+    client.load_extension(f"modules.{file}")
 
 client.run(token)
-

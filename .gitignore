@@ -116,6 +116,7 @@ dmypy.json
 
 # token
 settings.json
+settings.yaml
 
 # enviromnent thing
 .vs/

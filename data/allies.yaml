@@ -1,0 +1,20 @@
+---
+  annie: 
+    type: "GNT"
+    obtain: "B-Rank Proctor a Chunin Exam Gen D11S9 Nin D6S7"
+    description: "One of the proctors wants to hang out after the test!"
+    bonus: "+1 Nin Range"
+    teams: 
+      - "Knowledge is Power (with Sicko + The Scar, +2 Successes +2 Range)"
+      - "Girl Power"
+    
+  annie2:
+    type: "GNT"
+    obtain: "In Season2+, take Annie on the B-Rank mission Teach a Class Nin D12S12."
+    description: "Annie gets sick of dealing with these chumps, and launches them into space!"
+    bonus:
+      - "+1 Nin Range" 
+      - "+30% Ranking XP"
+    teams: "Girl Power"
+    
+...
