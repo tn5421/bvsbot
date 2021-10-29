@@ -6,7 +6,7 @@ A Discord bot built for the Billy vs SNAKEMAN community
 
 An installation of Python 3.9.x with ssl compiled.
 
-The following packages: discord, asyncio, json
+The following packages: discord, json
 
 Access to the Discord Developer portal.
 
@@ -32,3 +32,5 @@ Open your preferred terminal and run `python main.py`
 
 - [tn5421](https://github.com/tn5421) - Creator
 - Mitillos - All Your Math Are Belong To Me
+- [Yichi Zhang](https://github.com/yichizhng) - Fixer of Math
+- 
