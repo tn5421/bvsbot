@@ -32,7 +32,7 @@ class ally(commands.Cog, name="Allies"):
       output=re.sub('\':', ':', output) # remove trailing quotation marks on categories
       output=re.sub('{', ' ', output) # replace the opening { with a space
       output=re.sub('[}\[\]]', '', output) # strip out some undesired characters
-      output=re.sub('\'[^0-9A-Za-z+-:]', '\'\n', output) # insert a newline character after closing quotation marks
+      output=re.sub('\'[^0-9A-Za-z+\-:]', '\'\n', output) # insert a newline character after closing quotation marks
       output=re.sub('\n +\'', '\n          \'', output) # align non-category lines
     
     stream.close() # close file.
