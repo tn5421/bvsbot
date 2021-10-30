@@ -1,3 +1,4 @@
+import re
 import yaml
 import discord
 from discord.ext import commands
@@ -23,13 +24,14 @@ class ally(commands.Cog, name="Allies"):
     output = allies.get(userinput)
     stream.close() # close file.
      
-    # You are welcome to re-write this into a regex at any time!
-    # Thank you in advance for your consideration.
-    
-    # P.S. These transformations such, I hope one of you is a REGEX WIZARD!
-    
     output = str(output)
-    output = output.strip("{}\'\"")
+    
+    output=re.sub('\'((?=type)|(?=obtain)|(?=description)|(?=bonus)|(?=teams))', '  ', output) # remove leading quotation marks on categories
+    output=re.sub('\':', ':', output) # remove trailing quotation marks on categories
+    output=re.sub('{', ' ', output) # replace the opening { with a space
+    output=re.sub('[}\[\]]', '', output) # strip out some undesired characters
+    output=re.sub('\'[^0-9A-Za-z+:]', '\'\n', output) # insert a newline character after closing quotation marks
+    output=re.sub('\n +\'', '\n          \'', output) # align non-category lines
     
     await ctx.send(output)
     print("Ally Shenanigans!")
