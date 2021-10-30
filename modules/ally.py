@@ -21,18 +21,22 @@ class ally(commands.Cog, name="Allies"):
     userinput = userinput.lower()
     stream = open("data/allies.yaml", "r") # abstracted so we can close it again
     allies = yaml.load(stream)
-    output = allies.get(userinput)
+    
+    if allies.get(userinput) == 0:
+      output = "Does not match an ally in the database! Pester tn5421#0271 if this is in error!"
+    else:
+      output = str(allies.get(userinput))
+      
+      output=re.sub('\'((?=type)|(?=obtain)|(?=description)|(?=bonus)|(?=teams))', '  ', output) 
+      # remove leading quotation marks on categories
+      output=re.sub('\':', ':', output) # remove trailing quotation marks on categories
+      output=re.sub('{', ' ', output) # replace the opening { with a space
+      output=re.sub('[}\[\]]', '', output) # strip out some undesired characters
+      output=re.sub('\'[^0-9A-Za-z+:]', '\'\n', output) # insert a newline character after closing quotation marks
+      output=re.sub('\n +\'', '\n          \'', output) # align non-category lines
+    
     stream.close() # close file.
-     
-    output = str(output)
-    
-    output=re.sub('\'((?=type)|(?=obtain)|(?=description)|(?=bonus)|(?=teams))', '  ', output) # remove leading quotation marks on categories
-    output=re.sub('\':', ':', output) # remove trailing quotation marks on categories
-    output=re.sub('{', ' ', output) # replace the opening { with a space
-    output=re.sub('[}\[\]]', '', output) # strip out some undesired characters
-    output=re.sub('\'[^0-9A-Za-z+:]', '\'\n', output) # insert a newline character after closing quotation marks
-    output=re.sub('\n +\'', '\n          \'', output) # align non-category lines
-    
+
     await ctx.send(output)
     print("Ally Shenanigans!")
 

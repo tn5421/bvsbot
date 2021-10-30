@@ -1,4 +1,22 @@
 ---
+  aaron:
+    type: "Poker"
+    obtain: "Defeat him in Perfect Poker"
+    description: "Definitely Not Eren Yeager"
+    bonus: "-5 Appetite cost for Poker"
+    teams: "n/a"
+    
+  aaron2:
+    type: 
+      - "Poker"
+      - "Retail"
+    obtain: "Visit Retail"
+    description: "n/a"
+    bonus: 
+      - "-5 Appetite cost for Poker"
+      - "+10 Stamina Limit for Lucha"
+    teams: "n/a"
+  
   annie: 
     type: "GNT"
     obtain: "B-Rank Proctor a Chunin Exam Gen D11S9 Nin D6S7"
@@ -16,5 +34,6 @@
       - "+1 Nin Range" 
       - "+30% Ranking XP"
     teams: "Girl Power"
-    
+  
+  
 ...
