@@ -1,4 +1,8 @@
 ---
+<<<<<<< HEAD
+=======
+  
+>>>>>>> a7b6a3e7e4916a01e10438c99a60023d8b2e5c12
   aaron:
     type: "Poker"
     obtain: "Defeat him in Perfect Poker"
@@ -20,7 +24,7 @@
   annie: 
     type: "GNT"
     obtain: "B-Rank Proctor a Chunin Exam Gen D11S9 Nin D6S7"
-    description: "One of the proctors wants to hang out after the test!"
+    description: "(Doesn't count as a Jonin) One of the proctors wants to hang out after the test!"
     bonus: "+1 Nin Range"
     teams: 
       - "Knowledge is Power (with Sicko + The Scar, +2 Successes +2 Range)"
@@ -35,5 +39,276 @@
       - "+30% Ranking XP"
     teams: "Girl Power"
   
+<<<<<<< HEAD
   
+=======
+  anonymous:
+    type: "Note"
+    obtain: "Get bingo'd with a Note Page after obtaining The Trade"
+    description: "A gangly, sleepy-eyed bishounen walks up to your prone form, and gives it a kick. 'Get up. We've got to figure out who did this to you! We cannot forgive! We cannot forget!'"
+    bonus: 
+      - "+1 Gen Range"
+      - "Do 5 extra damage per round when being Bingo'd"
+    teams: "n/a"
+    
+  anonymous2:
+    type: "Note, Reaper"
+    obtain: "Complete Quest 'Sick of Him! (Right)'"
+    description: "The only reason to go for this ally is for his Jutsu, which can replicate RedEye's ability to auto-level allies, but at a stamina cost"
+    bonus: "+3 Range and +10 damage per round when being bingo'd"
+    teams: "n/a"
+   
+  bigbo:
+    type: "GNT"
+    obtain: "Complete A-Rank mission Crush a Forest of Evil Tai D14S9"
+    description: "'HAR HAR HAR,' a large man chortles. 'TIME TO HELP YOU WITH THE SMASHING.'"
+    bonus:
+      - "+2 Tai Strength"
+      - "+2 Tai Levels"
+    teams: "Fathers Know Best (with Big Ro, Big Shammy, +2 Strength +1 Range)"
+   
+  bigbo2:
+    type: "Mahjong"
+    obtain: "Defeat in a character battle (Flower Wars/Hanafuda)"
+    description: "Big Bo Lvl. 2 spends the night watching Mahjong anime!"
+    bonus:
+      - "+2 Tai Strength"
+      - "+2 Tai Levels"
+      - "+10 Appetite on Ramen Use"
+      - "+1 Mahjong Game (if in team on dayroll) [secret]"
+    teams: "Fathers Know Best 2 (with Big Ro2, Big Shammy2, Doubles Overnight Bonuses to+2 Mahjong Games, +2 Hanafuda Games, +2 Glowslinging Duels)"
+   
+  bigro:
+    type: "GNT"
+    obtain: "Complete A-Rank mission Talk a Guard Into Defecting! Nin D15S7 Tai D8S8"
+    description: "Ro's Dad moseys up. 'Need any help?'"
+    bonus: 
+      - "+2 Gen Strength"
+      - "+2 Gen Levels"
+    teams: "Fathers Know Best (with Big Bo, Big Shammy, +2 Strength +1 Range)"
+   
+  bigro2:
+    type: "Glowslinging"
+    obtain: "Defeat in a character battle (Flower Wars/Hanafuda)"
+    description: "Nice moves"
+    bonus:
+      - "+2 Gen Strength"
+      - "+2 Gen Levels"
+      - "Detects if leader is Ascended on Spy placement"
+      - "+1 Glowslinging Duel (if in team on dayroll) [secret]"
+    teams: "Fathers Know Best 2 (with Big Bo2, Big Shammy2, Doubles Fathers' Overnight/secret Bonuses"
+
+  bigshammy:
+  type: "GNT"
+  obtain: "Complete A-Rank mission Hide in a Shadow Gen D14S8"
+  description: "You trip over a guy who looks a lot like Shammy. 'Oh, crap, did my wife send you? No? Then let's get out of here!'"
+  bonus:
+    - "+2 Nin Strength"
+    - "+2 Nin Levels"
+  teams: "Fathers Know Best (with Big Bo, Big Ro, +2 Strength +1 Range)"
+   
+  bigshammy2:
+    type: "Hanafuda"
+    obtain: "Defeat in a character battle (Flower Wars/Hanafuda)"
+    description: "Nice moves"
+    bonus:
+      - "+2 Nin Strength"
+      - "+2 Nin Levels"
+      - "+2 Storm MPH"
+      - "+1 Hanafuda Game (if in team on dayroll) [secret]"
+    teams: "Fathers Know Best 2 (with Big Bo2, Big Ro2, Doubles Fathers' Overnight/secret Bonuses"
+    
+  billy:
+    type: "GNT"
+    obtain:
+      - "Complete D-Rank mission Check Out a Ninja Centerfold Gen D5S2"
+      - "Complete D-Rank mission Missing Pet Tora Gen D5S1"
+      - "Complete D-Rank mission Sneak out of Detention Gen D4S2"
+      - "Complete D-Rank mission Report a Village Breach Nin D7S2"
+      - "Complete D-Rank mission Sew Uniforms Tai D6S1"
+      - "Complete D-Rank mission Inscribe Scrolls Gen D4S2"
+    description: "Wears the Eyepatch of the Soul. Your New Best Friend"
+    bonus:
+      - "+1 Tai Level"
+      - "5% chance of auto-winning a mission"
+    teams: "Sexy Jutsu Masters (with Timmy, +2 Successes)"
+   
+  billy2:
+    type: "GNT"
+    obtain: "Complete B-Rank mission Defeat an Evil Pirate Gen D12S8"
+    description: "Billy rushes forward and dispatches the enemy! 'I'm not a kid anymore!'"
+    bonus:
+      - "+1 Success"
+      - "5% chance of auto-winning a mission"
+    teams:
+      - "Never Say Yaoi Bonus! (with Emosuke2, +4 range +2 strength 30% off chakra costs)"
+      - "Crazy Love Triangle (with Pinky2, Stalkergirl2, +3 range +1 strength, required to go Jonin)"
+   
+  billy3:
+    type: "GNT"
+    obtain: "Complete RARE A-Rank mission Withstand the Eyepatch of the Soul Tai D20S15 Gen D5S12"
+    description: "Billy gets a weird look on his face… and puts on a THIRD EYEPATCH!"
+    bonus:
+      - "+4 Strength"
+      - "20% chance of auto-winning a mission"
+    teams:
+      - "Ultimate Showdown (with Emosuke3, +1 Range +1 Strength, unlocks The Impossible Mission quest)"
+      - "Bow Chica Bow Wow (with Stalkergirl3, +100% ryo +100% item find chance)"
+      - "Triple Triangle Bonus (with Pinky3, Stalkergirl3, +5 to All Range +5 to All Levels)"
+   
+  blindfury:
+    type: "Reaper"
+    obtain: "Complete Monochrome mission Pencil Attack Nin D19S17 Tai D20S14"
+    description: "Someone grabs the pencil out of the air without looking and snaps it. 'You are on our side, eh?'"
+    bonus:
+      - "+5 Levels"
+      - "Bingo opponents lose 150 chakra per round"
+    teams:
+      - "The A-Team (with MisterTea3, Smiley, During village attacks, +3 strength and take Double Ryo)"
+      - "Likes the Fur (with bucketface, +5 Range)"
+   
+  blondie:
+    type: "Burger/Pizza"
+    obtain: "Complete PizzaWitch mission Pizza Party Dou D17S7 Gen D13S5 Nin D12S18 Tai D20S12"
+    description: "One of them decides to stick around! 'This content doesn't have NEARLY enough hot ladies! I'll make up for that!'"
+    bonus:
+      - "+2 Dou Successes"
+      - "+50% Ryo"
+    teams: "Extra Drama (with Lulu2, Robogirl3, +2 Dou Range +50% Ally Drop)"
+   
+  bones:
+    type: "Wasteland"
+    obtain: "Complete the quest Battle of the Bands"
+    description: "Bones and Emo rock out, and afterwards, Bones doesn't want to leave! 'FIND ME SOMETHING BRUTAL,' he says, drooling blood and gore. Yeek."
+    bonus:
+      - "+3 Levels"
+      - "+1 Range"
+      - "Villages do not provide HP in Bingos!"
+    teams: "n/a"
+   
+  bones2:
+    type: "Wasteland"
+    obtain: "Complete the quest Rock Around the Clock (only lasts for 1 day)"
+    description: "This character de-levels again on dayroll, take them to Rock Around the Clock as needed."
+    bonus:
+      - "+1 Levels"
+      - "+3 Range"
+      - "Villages do not provide HP in Bingos!"
+    teams: "n/a"
+   
+  brucejr:
+    type: "GNT"
+    obtain: "Complete the D-Rank mission Blindfighting Nin D5S1"
+    description: "Feel the power within! states a weird-looking, but friendly, kid."
+    bonus:
+      - "+2 Tai Levels"
+      - "+2 Tai Strength"
+      - "+25% Jutsu Costs"
+    teams: "Not worth it"
+   
+  brucejr2:
+    type: "GNT"
+    obtain: "Have brucejr in your team while sparring your 200th or higher spar this season"
+    description: "Use him when sparring with friends, otherwise dump him"
+    bonus:
+      - "+2 Tai Levels"
+      - "+2 Tai Strength"
+      - "+2 Stamina after every spar"
+    teams: "n/a"
+   
+  brucesr:
+    type: "GNT"
+    obtain: "Complete the C-Rank mission Challenge a Dojo Master Tai D6S6 Nin D6S6"
+    description: "Counts as a Jonin"
+    bonus: "+1 Tai Success"
+    teams: "Dueling Jonin (with kdog, +1 Success +2 Strength)"
+   
+  brucesr2:
+    type: "Glowslinging"
+    obtain: 
+      - "Originally, Beat the Ice Cream Line at the Buffet Boss OR Comic Book Store Boss in Glowslinging"
+      - "Afterwards, win a fight in one of those areas (Yes, this means SPECIFICALLY one of these areas"
+    description: "Useful early Glowslinging ally"
+    bonus:
+      - "+1 Tai Success"
+      - "+100EX Gauge at GS Duel Start"
+    teams: "n/a"
+   
+  bucketface:
+    type: "Reaper, Glowslinging"
+    obtain:
+      - "Obtain 7 Turfs in Glowslinging"
+      - "After looping, defeat any Dramatic Cliff opponent"
+    description: "a cat with a bucket on it's head. Mostly useless"
+    bonus:
+      - "+6 Gen Levels"
+      - "-5 Nin Levels"
+      - "+2 Opponent GS Risk"
+    teams: "Likes the Fur (with BlindFury, +5 Range)"
+   
+  bugman:
+    type: "GNT"
+    obtain: "Complete the D-Rank mission Catch a Fly Gen D6S1"
+    description: "One guy has no problem at all catching bugs - but isn't that cheating?"
+    bonus:
+      - "+1 Gen Level"
+      - "-10% Jutsu Costs"
+    teams: "not worth it"
+  
+  bugman2:
+    type: "HeroQuest"
+    obtain: "Complete the quest Captain's Log"
+    description: "It's a bug, man!"
+    bonus: 
+      - "+2 All Strength"
+      - "+11 successes on Island and Fields"
+      - "+2 Stamina per Mission"
+      - "-10% Jutsu Costs"
+    teams: "Whoa, whoa - I can't be on your Team, I'm just a hologram. Can you imagine? Ha, that'd be crazy."
+
+  timmy:
+    type: "GNT"
+    obtain: "Student Becomes the Teacher/Season 2+"
+    description: "Speedlooper's friend"
+    bonus: 
+      - "+20% AP/JXP"
+      - "-2 Strength"
+      - "-2 Levels"
+    teams: 
+      - "Sexu Jutsu Masters (with billy, +2 Success)"
+      - "Skip a Generation (with triple h, +1 Success)"
+      - "Detention Bonus (with mr.smith, +2 levels)"
+
+  trapchan:
+    type: "GNT"
+    obtain: "Angry Villagers!"
+    description: "useless"
+    bonus: "+2 Gen Str"
+    teams: "Till The End Bonus (with zdog +3 Strength +1 Range)"
+
+  triple h:
+    type: "GNT"
+    obtain: "Create an Image for the Village Monument!"
+    description: "useless"
+    bonus: "+1 Level"
+    teams: "Skip a Generation, +1 Success"
+
+  yuri:
+    type: "GNT"
+    obtain: "Clean up a Shexyy Pahty, Spend 50k Ryo in the PH in a season."
+    description: "The Rack's side chick."
+    bonus: 
+      - "+1 Nin Level" 
+      - "+1 Nin Strength"
+      - "negates The Rack's weakness"
+    teams: "Perfect Pair Bonus!, +2 Gen levels +1 Strength"
+
+  zdog:
+    type: "GNT"
+    obtain: "Destroy an Evil Fortress!"
+    description: "useless"
+    bonus: "+4 Gen Levels"
+    teams: "Till the End Bonus! (With Trapchan, +3 Strength +1 Range)"
+   
+>>>>>>> a7b6a3e7e4916a01e10438c99a60023d8b2e5c12
 ...
