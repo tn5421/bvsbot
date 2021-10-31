@@ -1,8 +1,5 @@
 ---
-<<<<<<< HEAD
-=======
-  
->>>>>>> a7b6a3e7e4916a01e10438c99a60023d8b2e5c12
+
   aaron:
     type: "Poker"
     obtain: "Defeat him in Perfect Poker"
@@ -39,9 +36,6 @@
       - "+30% Ranking XP"
     teams: "Girl Power"
   
-<<<<<<< HEAD
-  
-=======
   anonymous:
     type: "Note"
     obtain: "Get bingo'd with a Note Page after obtaining The Trade"
@@ -310,5 +304,4 @@
     bonus: "+4 Gen Levels"
     teams: "Till the End Bonus! (With Trapchan, +3 Strength +1 Range)"
    
->>>>>>> a7b6a3e7e4916a01e10438c99a60023d8b2e5c12
 ...
