@@ -3,7 +3,8 @@
   aaron:
     type: "Poker"
     obtain: "Defeat him in Perfect Poker"
-    description: "Definitely Not Eren Yeager"
+    greeting: "Unknown (Consider contributing!)"
+    recommendation: "Useful for playing Poker."
     bonus: "-5 Appetite cost for Poker"
     teams: "n/a"
     
@@ -12,7 +13,8 @@
       - "Poker"
       - "Retail"
     obtain: "Visit Retail"
-    description: "n/a"
+    greeting: "Unknown (Consider contributing!)"
+    recommendation: "Not materially more worth it than A A Ron Lv1."
     bonus: 
       - "-5 Appetite cost for Poker"
       - "+10 Stamina Limit for Lucha"
@@ -21,7 +23,8 @@
   annie: 
     type: "GNT"
     obtain: "B-Rank Proctor a Chunin Exam Gen D11S9 Nin D6S7"
-    description: "(Doesn't count as a Jonin) One of the proctors wants to hang out after the test!"
+    greeting: "One of the proctors wants to hang out after the test!"
+    recommendation: "Not useful. Doesn't count as a Jonin."
     bonus: "+1 Nin Range"
     teams: 
       - "Knowledge is Power (with Sicko + The Scar, +2 Successes +2 Range)"
@@ -30,7 +33,8 @@
   annie2:
     type: "GNT"
     obtain: "In Season2+, take Annie on the B-Rank mission Teach a Class Nin D12S12."
-    description: "Annie gets sick of dealing with these chumps, and launches them into space!"
+    greeting: "Annie gets sick of dealing with these chumps, and launches them into space!"
+    recommendation: "Might still be worthwhile in the following team: Annie 2, Strawberry 3, Stalkergirl or other stamina return ally."
     bonus:
       - "+1 Nin Range" 
       - "+30% Ranking XP"
@@ -39,7 +43,8 @@
   anonymous:
     type: "Note"
     obtain: "Get bingo'd with a Note Page after obtaining The Trade"
-    description: "A gangly, sleepy-eyed bishounen walks up to your prone form, and gives it a kick. 'Get up. We've got to figure out who did this to you! We cannot forgive! We cannot forget!'"
+    greeting: "A gangly, sleepy-eyed bishounen walks up to your prone form, and gives it a kick. 'Get up. We've got to figure out who did this to you! We cannot forgive! We cannot forget!'"
+    recommendation: "Get him for The Trade, then skip"
     bonus: 
       - "+1 Gen Range"
       - "Do 5 extra damage per round when being Bingo'd"
@@ -47,15 +52,17 @@
     
   anonymous2:
     type: "Note, Reaper"
-    obtain: "Complete Quest 'Sick of Him! (Right)'"
-    description: "The only reason to go for this ally is for his Jutsu, which can replicate RedEye's ability to auto-level allies, but at a stamina cost"
+    obtain: "Complete Quest Sick of Him! (Right)"
+    greeting: "Unknown (Consider contributing!)"
+    recommendation: "The only reason to go for this ally is for his Jutsu, which can replicate RedEye's ability to auto-level allies, but at a stamina cost"
     bonus: "+3 Range and +10 damage per round when being bingo'd"
     teams: "n/a"
    
   bigbo:
     type: "GNT"
     obtain: "Complete A-Rank mission Crush a Forest of Evil Tai D14S9"
-    description: "'HAR HAR HAR,' a large man chortles. 'TIME TO HELP YOU WITH THE SMASHING.'"
+    greeting: "'HAR HAR HAR', a large man chortles. 'TIME TO HELP YOU WITH THE SMASHING.'"
+    recommendation: "Get for Fathers Know Best 2. Not the best overnight team but a decent one for levelling Hanafuda/Mahjong"
     bonus:
       - "+2 Tai Strength"
       - "+2 Tai Levels"
@@ -64,7 +71,8 @@
   bigbo2:
     type: "Mahjong"
     obtain: "Defeat in a character battle (Flower Wars/Hanafuda)"
-    description: "Big Bo Lvl. 2 spends the night watching Mahjong anime!"
+    greeting: "Big Bo Lvl. 2 spends the night watching Mahjong anime!"
+    recommendation: "Good to have"
     bonus:
       - "+2 Tai Strength"
       - "+2 Tai Levels"
@@ -75,7 +83,8 @@
   bigro:
     type: "GNT"
     obtain: "Complete A-Rank mission Talk a Guard Into Defecting! Nin D15S7 Tai D8S8"
-    description: "Ro's Dad moseys up. 'Need any help?'"
+    greeting: "Ro's Dad moseys up. 'Need any help?'"
+    recommendation: "Get for Fathers Know Best 2. Not the best overnight team but a decent one for levelling Hanafuda/Mahjong"
     bonus: 
       - "+2 Gen Strength"
       - "+2 Gen Levels"
@@ -84,7 +93,8 @@
   bigro2:
     type: "Glowslinging"
     obtain: "Defeat in a character battle (Flower Wars/Hanafuda)"
-    description: "Nice moves"
+    greeting: "Nice moves"
+    recommendation: "Good to have"
     bonus:
       - "+2 Gen Strength"
       - "+2 Gen Levels"
@@ -93,18 +103,20 @@
     teams: "Fathers Know Best 2 (with Big Bo2, Big Shammy2, Doubles Fathers' Overnight/secret Bonuses"
 
   bigshammy:
-  type: "GNT"
-  obtain: "Complete A-Rank mission Hide in a Shadow Gen D14S8"
-  description: "You trip over a guy who looks a lot like Shammy. 'Oh, crap, did my wife send you? No? Then let's get out of here!'"
-  bonus:
-    - "+2 Nin Strength"
-    - "+2 Nin Levels"
-  teams: "Fathers Know Best (with Big Bo, Big Ro, +2 Strength +1 Range)"
+    type: "GNT"
+    obtain: "Complete A-Rank mission Hide in a Shadow Gen D14S8"
+    greeting: "You trip over a guy who looks a lot like Shammy. 'Oh, crap, did my wife send you? No? Then let's get out of here!'"
+    recommendation: "Get for Fathers Know Best 2. Not the best overnight team but a decent one for levelling Hanafuda/Mahjong"
+    bonus:
+      - "+2 Nin Strength"
+      - "+2 Nin Levels"
+    teams: "Fathers Know Best (with Big Bo, Big Ro, +2 Strength +1 Range)"
    
   bigshammy2:
     type: "Hanafuda"
     obtain: "Defeat in a character battle (Flower Wars/Hanafuda)"
-    description: "Nice moves"
+    description: "Get for Fathers Know Best 2. Not the best overnight team but a decent one for levelling Hanafuda/Mahjong"
+    recommendation: "Good to have"
     bonus:
       - "+2 Nin Strength"
       - "+2 Nin Levels"
@@ -121,16 +133,20 @@
       - "Complete D-Rank mission Report a Village Breach Nin D7S2"
       - "Complete D-Rank mission Sew Uniforms Tai D6S1"
       - "Complete D-Rank mission Inscribe Scrolls Gen D4S2"
-    description: "Wears the Eyepatch of the Soul. Your New Best Friend"
+    greeting: "You sneak out at the same time as this little brat with whisker marks on his cheeks. He seems like a loser, but he insists on following you around! (+5 variations)"
+    recommendation: "Yes"
     bonus:
       - "+1 Tai Level"
       - "5% chance of auto-winning a mission"
-    teams: "Sexy Jutsu Masters (with Timmy, +2 Successes)"
+    teams: 
+      - "Sexy Jutsu Masters (with Timmy, +2 Successes)"
+      - "Learn to Excel (with Flipper, +1 Strength)"
    
   billy2:
     type: "GNT"
     obtain: "Complete B-Rank mission Defeat an Evil Pirate Gen D12S8"
-    description: "Billy rushes forward and dispatches the enemy! 'I'm not a kid anymore!'"
+    greeting: "Billy rushes forward and dispatches the enemy! 'I'm not a kid anymore!'"
+    recommendation: "Needed for Jonin"
     bonus:
       - "+1 Success"
       - "5% chance of auto-winning a mission"
@@ -141,7 +157,8 @@
   billy3:
     type: "GNT"
     obtain: "Complete RARE A-Rank mission Withstand the Eyepatch of the Soul Tai D20S15 Gen D5S12"
-    description: "Billy gets a weird look on his face… and puts on a THIRD EYEPATCH!"
+    greeting: "Billy gets a weird look on his face… and puts on a THIRD EYEPATCH!"
+    recommendation: "Not necessary anymore, but still a good ally."
     bonus:
       - "+4 Strength"
       - "20% chance of auto-winning a mission"
@@ -153,7 +170,8 @@
   blindfury:
     type: "Reaper"
     obtain: "Complete Monochrome mission Pencil Attack Nin D19S17 Tai D20S14"
-    description: "Someone grabs the pencil out of the air without looking and snaps it. 'You are on our side, eh?'"
+    greeting: "Someone grabs the pencil out of the air without looking and snaps it. 'You are on our side, eh?'"
+    recommendation: "Required for Monochrome completion. Can't honestly recommend other than that."
     bonus:
       - "+5 Levels"
       - "Bingo opponents lose 150 chakra per round"
@@ -164,7 +182,8 @@
   blondie:
     type: "Burger/Pizza"
     obtain: "Complete PizzaWitch mission Pizza Party Dou D17S7 Gen D13S5 Nin D12S18 Tai D20S12"
-    description: "One of them decides to stick around! 'This content doesn't have NEARLY enough hot ladies! I'll make up for that!'"
+    greeting: "One of them decides to stick around! 'This content doesn't have NEARLY enough hot ladies! I'll make up for that!'"
+    recommendation: "Required for PizzaWitch"
     bonus:
       - "+2 Dou Successes"
       - "+50% Ryo"
@@ -173,7 +192,8 @@
   bones:
     type: "Wasteland"
     obtain: "Complete the quest Battle of the Bands"
-    description: "Bones and Emo rock out, and afterwards, Bones doesn't want to leave! 'FIND ME SOMETHING BRUTAL,' he says, drooling blood and gore. Yeek."
+    greeting: "Bones and Emo rock out, and afterwards, Bones doesn't want to leave! 'FIND ME SOMETHING BRUTAL,' he says, drooling blood and gore. Yeek."
+    recommendation: "Important for Wasteland"
     bonus:
       - "+3 Levels"
       - "+1 Range"
@@ -183,7 +203,8 @@
   bones2:
     type: "Wasteland"
     obtain: "Complete the quest Rock Around the Clock (only lasts for 1 day)"
-    description: "This character de-levels again on dayroll, take them to Rock Around the Clock as needed."
+    greeting: "n/a"
+    recommendation: "This character de-levels again on dayroll, take them to Rock Around the Clock as needed."
     bonus:
       - "+1 Levels"
       - "+3 Range"
@@ -193,7 +214,8 @@
   brucejr:
     type: "GNT"
     obtain: "Complete the D-Rank mission Blindfighting Nin D5S1"
-    description: "Feel the power within! states a weird-looking, but friendly, kid."
+    greeting: "Feel the power within! states a weird-looking, but friendly, kid."
+    recommendation: "A waste of your time, only necessary for the one quest that requires him"
     bonus:
       - "+2 Tai Levels"
       - "+2 Tai Strength"
@@ -203,7 +225,8 @@
   brucejr2:
     type: "GNT"
     obtain: "Have brucejr in your team while sparring your 200th or higher spar this season"
-    description: "Use him when sparring with friends, otherwise dump him"
+    greeting: "Unknown (Consider contributing!)"
+    recommendation: "Use him when sparring with friends, otherwise dump him"
     bonus:
       - "+2 Tai Levels"
       - "+2 Tai Strength"
@@ -213,15 +236,17 @@
   brucesr:
     type: "GNT"
     obtain: "Complete the C-Rank mission Challenge a Dojo Master Tai D6S6 Nin D6S6"
-    description: "Counts as a Jonin"
+    greeting: "You feel a firm pat on the back. 'Good job, brave soul!'"
+    recommendation: "Counts as a Jonin"
     bonus: "+1 Tai Success"
-    teams: "Dueling Jonin (with kdog, +1 Success +2 Strength)"
+    teams: "Dueling Jonin (with KDog, +1 Success +2 Strength)"
    
   brucesr2:
     type: "Glowslinging"
     obtain: 
       - "Originally, Beat the Ice Cream Line at the Buffet Boss OR Comic Book Store Boss in Glowslinging"
       - "Afterwards, win a fight in one of those areas (Yes, this means SPECIFICALLY one of these areas"
+    greeting: "Unknown (Consider contributing!)"
     description: "Useful early Glowslinging ally"
     bonus:
       - "+1 Tai Success"
@@ -233,7 +258,8 @@
     obtain:
       - "Obtain 7 Turfs in Glowslinging"
       - "After looping, defeat any Dramatic Cliff opponent"
-    description: "a cat with a bucket on it's head. Mostly useless"
+    greeting: "Unknown (Consider contributing!)"
+    recommendation: "A mediocre Glowslinging ally. Can be useful for Reaper/Monochrome content if teamed with Blind Fury"
     bonus:
       - "+6 Gen Levels"
       - "-5 Nin Levels"
@@ -243,16 +269,18 @@
   bugman:
     type: "GNT"
     obtain: "Complete the D-Rank mission Catch a Fly Gen D6S1"
-    description: "One guy has no problem at all catching bugs - but isn't that cheating?"
+    greeting: "One guy has no problem at all catching bugs - but isn't that cheating?"
+    recommendation: "Not worth it"
     bonus:
       - "+1 Gen Level"
       - "-10% Jutsu Costs"
-    teams: "not worth it"
+    teams: "Don't bother."
   
   bugman2:
     type: "HeroQuest"
     obtain: "Complete the quest Captain's Log"
-    description: "It's a bug, man!"
+    greeting: ""
+    recommendation: ""
     bonus: 
       - "+2 All Strength"
       - "+11 successes on Island and Fields"
@@ -262,8 +290,9 @@
 
   timmy:
     type: "GNT"
-    obtain: "Student Becomes the Teacher/Season 2+"
-    description: "Speedlooper's friend"
+    obtain: "Get automatically during quest 'Student Becomes the Teacher' in both variations"
+    greeting: "'Uh, I am supposed to follow you around, they said.' (Who is 'they'?)"
+    recommendation: "Speedlooper's friend"
     bonus: 
       - "+20% AP/JXP"
       - "-2 Strength"
@@ -272,35 +301,90 @@
       - "Sexu Jutsu Masters (with billy, +2 Success)"
       - "Skip a Generation (with triple h, +1 Success)"
       - "Detention Bonus (with mr.smith, +2 levels)"
+  
+  timmy2:
+    type: "Reaper"
+    obtain: "Complete the mission 'B-Level! Teach a New Soul Reaper' Tai D10S7 Gen D8S8"
+    greeting: "Timmy follows along, nodding. 'Dude, I'm going to be a Soul Reaper, too!'"
+    recommendation: "Not useful for speedlooping, as he takes too long to earn for that, but is extremely useful for grinding XP"
+    bonus: 
+      - "+20% AP/JXP"
+      - "+1 Success"
+      - "+2 extra Successes on Reaper Missions"
+    teams: "No special teams, but he teams well with Reaper or GNT ally"
 
   trapchan:
     type: "GNT"
-    obtain: "Angry Villagers!"
-    description: "useless"
+    obtain: "Complete the C-Rank mission Angry Villagers! Gen D8S4 Tai D8S4"
+    greeting: "That is different than how my master handled that situation. How interesting.."
+    recommendation: "useless"
     bonus: "+2 Gen Str"
-    teams: "Till The End Bonus (with zdog +3 Strength +1 Range)"
+    teams: "Till The End Bonus (with ZDog +3 Strength +1 Range)"
+    
+  trapchan2:
+    type: "r00t"
+    obtain: "Complete the quest 'Wild Child'"
+    greeting: "Trap gets a couple of blades, and steps in with you to the Fields. 'Let's take care of one a' those big boys, okayyy?' Trap huggles you and points towards the nearest Phase. Should you be turned on? (should you tell anyone if you are?)"
+    recommendation: "Subpar"
+    bonus: "Double Hack Time while fighting Phases"
+    teams: "n/a"
 
-  triple h:
+  tripleh:
     type: "GNT"
-    obtain: "Create an Image for the Village Monument!"
-    description: "useless"
+    obtain: "Complete RARE C-Rank Mission 'Create an Image for the Village Monument!' Nin D7S5 Gen D7S5"
+    greeting: "An old man next to you nods and smiles. 'Looks just like me!'"
+    recommendation: "Only important for Mahjong."
     bonus: "+1 Level"
     teams: "Skip a Generation, +1 Success"
+  
+  tripleh2:
+    type: "Mahjong"
+    obtain: "Defeat him in Mahjong character battle"
+    greeting: "You will make a glorious Leader."
+    recommendation: "Most useful for leaders, Teaches an important jutsu to everyone"
+    bonus: "Kaiju Enticed with Triple-H in-party give 20 RP to those who receive drops."
+    teams: "Alone! Rising Sun Bonus! Blood Altar only gives 300 stamina, but has no downside"
 
   yuri:
     type: "GNT"
     obtain: "Clean up a Shexyy Pahty, Spend 50k Ryo in the PH in a season."
-    description: "The Rack's side chick."
+    greeting: "A Special Jonin runs around.. 'Have you seen my friend? She's.. oh, I'll never find her in here. I'm coming with you.'"
+    recommendation: "Necessary for Speed Looping. Worthless until Lv3 otherwise"
     bonus: 
       - "+1 Nin Level" 
       - "+1 Nin Strength"
       - "negates The Rack's weakness"
     teams: "Perfect Pair Bonus!, +2 Gen levels +1 Strength"
+  
+  yuri2:
+    type: "GNT"
+    obtain: "Complete C-Rank mission Undermine a Wall! Tai D7S4"
+    greeting: "Yuri stabs the wall with DEADLY POISON OMG, and it actually works!"
+    recommendation: "Only worthwhile for speedlooping or getting Lv3 form"
+    bonus: 
+      - "+2 Nin Levels"
+      - "+2 Nin Strength"
+      - "Negates The Rack's weakness!"
+    teams: "Don't recommend"
+
+  yuri3:
+    type: "Burger/Pizza"
+    obtain: "Defeat Yuri2 in Hanafuda"
+    greeting: "Unknown (Consider contributing!)"
+    recommendation: "Useful to team overnight and to Work in the Back"
+    bonus: 
+      - "+2 Nin Levels"
+      - "+2 Nin Strength"
+      - "Negates The Rack's weakness!"
+      - "+25% tips for Working in the Back (stacks with gloves)"
+      - "+11% spiral energy creation"
+    teams: "team with overnight allies"
 
   zdog:
     type: "GNT"
-    obtain: "Destroy an Evil Fortress!"
-    description: "useless"
+    obtain: "Complete A-Rank mission Destroy an Evil Fortress! Nin D14S8 Tai D8S10"
+    greeting: "A bandaged ninja emerges from the mist. 'My mission is to help you - for now.' He won't take no for an answer!"
+    recommendation: "useless"
     bonus: "+4 Gen Levels"
     teams: "Till the End Bonus! (With Trapchan, +3 Strength +1 Range)"
    
