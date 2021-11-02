@@ -27,7 +27,7 @@ class ally(commands.Cog, name="Allies"):
     else:
       output = str(allies.get(userinput))
       
-      output=re.sub('\'((?=type)|(?=obtain)|(?=description)|(?=bonus)|(?=teams))', '  ', output) 
+      output=re.sub('\'((?=type\':)|(?=obtain\':)|(?=description\':)|(?=bonus\':)|(?=teams\':)|(?=recommendation\':)|(?=greeting\':))', '  ', output) 
       # remove leading quotation marks on categories
       output=re.sub('\':', ':', output) # remove trailing quotation marks on categories
       output=re.sub('{', ' ', output) # replace the opening { with a space
