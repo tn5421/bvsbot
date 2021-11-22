@@ -8,7 +8,8 @@ wk_list = ["Craftworld at War", "AspenStory",
         "ADAM", "FarmVale", "ForeverQuest"]
 
 def get_rday(offsetdays=0):
-  return (int((datetime.datetime.now(datetime.timezone(-datetime.timedelta(hours=5)))+datetime.timedelta(days=offsetdays)).strftime("%d")))
+  return (int((datetime.datetime.now(datetime.timezone(-datetime.timedelta(hours=5))) \
+    +datetime.timedelta(days=offsetdays)).strftime("%d")))
 
 class wkai(commands.Cog, name="WorldKaiju"):
   """Prints relative World Kaiju summon times."""
