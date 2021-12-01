@@ -287,6 +287,83 @@
       - "+2 Stamina per Mission"
       - "-10% Jutsu Costs"
     teams: "Whoa, whoa - I can't be on your Team, I'm just a hologram. Can you imagine? Ha, that'd be crazy."
+    
+  cato:
+    type: "GNT"
+    obtain: "Complete Season 2+ Special Jonin Exam"
+    greeting: ""
+    recommendation: "Useful to farm Ryo early, until you can bash ADAMs"
+    bonus: "+50% Ryo on regular missions"
+    teams: "n/a"
+    
+  cato2:
+    type: "Hanafuda"
+    obtain: "Defeat in a Character Battle in Flower Wars"
+    greeting: "Hey, if you beat me, I'll show you something really cool!"
+    recommendation: "Use overnight to refresh OCAT, if you farm TACODELUXE. Otherwise, don't bother."
+    bonus: 
+      - "+50% Ryo on regular missions"
+      - "first swing vs Phase per day is invulnerable"
+      - "Refreshes OCAT Summon Use if in party overnight"
+    teams: "TACOCAT (with TACOS, summons refreshed by Cato won't leave during regular missions)"
+    
+  chunks:
+    type: "Wasteland"
+    obtain: "Complete the quest Chunks"
+    greeting: ""
+    recommendation: "Needed to complete Wasteland. Can be useful for Tai WKAI"
+    bonus: 
+      - "+8 Tai Levels/Range"
+      - "-8 Gen/Nin Levels"
+      - "Immune to This Hand of Mine"
+    teams: "Buddy System Bonus! (with Threads, +8 Nin Levels +8 Tai Levels)"
+
+  cici:
+    type: "Burger/Pizza"
+    obtain: "Complete the quest Super Size"
+    greeting: "'Too much Greass?' she smirks. 'You do something for me, and I'll teach you how to use what this place creates against it. When you are ready, I'll let you know.' Her pizza drips on your uniform. 'Keep that Greass there - you'll need it.'"
+    recommendation: "Required to progress"
+    bonus: "+2 Dou Levels"
+    teams: 
+      - "Greassmonkeys (with Lulu, Consumable items have -10 appetite)"
+      - "Greassmonkeys 1.5 (with Lulu2, Consumable items have -10 appetite)"
+    
+  cici2:
+    type: "Burger/Pizza"
+    obtain: "Complete the quest Grind / Grind Remix"
+    greeting: ""
+    recommendation: "Useful if the RNG hates you. Reduces appetite costs by a predictable amount."
+    bonus: "+2 Dou Levels/Range"
+    teams: 
+      - "Pizza Witch (Alone, Consumable Items have -10 Appetite)"
+      - "Greassmonkeys 2 (with Lulu2, Consumable Items have -10 Appetite)"
+      - "Alternate Ending (with Cipher, +100% Vacation Stamina)"
+    
+  cipher:
+    type: "Burger/Pizza"
+    obtain: "Complete the quest PizzaWitch Epilogue after completing the quest Minimum Safe Distance"
+    greeting: "You can call me… ~~**Ze**~~ wait, no, that's already taken **CIPHER**."
+    recommendation: "Useful for his overnight bonus. Perhaps useful for his drops."
+    bonus: 
+      - "Cancels Unbingoable Teams"
+      - "+100% Ryo"
+      - "-50% Ally Drop Chance"
+      - "Double Freezer Drops"
+      - "+50 Appetite if left in your team overnight"
+    teams: "Alternate Ending (with cici2, +100% Stamina on Vacation)"
+    
+  cipher2:
+    type: "Burger/Ninja"
+    obtain: "Complete the quest PizzaWitch Epilogue after completing the quest Infiltration."
+    greeting: "Some of the fangirls in the audience ask about the mysterious guy's name.  Well, I don't know! He could be anyone! Imagine that! He's a blank slate, a cipher! Hey, what a good name!"
+    recommendation: "Useful for his overnight bonus. Perhaps useful for his drops."
+    bonus: 
+      - "+100% Ryo"
+      - "-50% Ally Drop Chance"
+      - "Double Freezer Drops"
+      - "First Consumable used returns Appetite Used (single items only)"
+      - "+50 Appetite if left in your team overnight"
+    teams: "n/a"
 
   timmy:
     type: "GNT"
