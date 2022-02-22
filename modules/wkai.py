@@ -16,8 +16,8 @@ class wkai(commands.Cog, name="WorldKaiju"):
   def init(self, bot: commands.Bot):
     self.bot = bot
 
-  @commands.command(name='wkai', help='Prints the WorldKaiju summon for the day.')
-  async def wkai(self, ctx: commands.Context):
+  @commands.command(name='wk', help='Prints the WorldKaiju summon for the day.')
+  async def wk(self, ctx: commands.Context):
     day_wkai = "Today's WKAI summon is a "
 
     wk_day = get_rday() % 5
@@ -26,13 +26,13 @@ class wkai(commands.Cog, name="WorldKaiju"):
     await ctx.send(day_wkai)
     print("Client should have posted today's WKAI")
 
-  @commands.command(name='cow', help='Prints the next time a Craftworld of War can be summoned.')
-  async def cow(self, ctx: commands.Context):
+  @commands.command(name='cw', help='Prints the next time a Craftworld of War can be summoned.')
+  async def cw(self, ctx: commands.Context):
     for offset in range(1,10):
       if (get_rday(offset) % 5 == 0):
-        cow_wkai = "The next Craftworld of War summoning is in {0} Day(s)".format(offset)
+        cw_wkai = "The next Craftworld of War summoning is in {0} Day(s)".format(offset)
         break
-    await ctx.send(cow_wkai)
+    await ctx.send(cw_wkai)
     print("Client should have posted next CoW WKAI")
 
   @commands.command(name='aspen', help='Prints the next time an AspenStory can be summoned.')
@@ -53,13 +53,13 @@ class wkai(commands.Cog, name="WorldKaiju"):
     await ctx.send(adam_wkai)
     print("Client should have posted next ADAM WKAI")
 
-  @commands.command(name='farm', help='Prints the next time a FarmVale can be summoned.')
-  async def farm(self, ctx: commands.Context):
+  @commands.command(name='fv', help='Prints the next time a FarmVale can be summoned.')
+  async def fv(self, ctx: commands.Context):
     for offset in range(1,10):
       if (get_rday(offset) % 5 == 3):
-        farm_wkai = "The next FarmVale summoning is in {0} Day(s)".format(offset)
+        fv_wkai = "The next FarmVale summoning is in {0} Day(s)".format(offset)
         break
-    await ctx.send(farm_wkai)
+    await ctx.send(fv_wkai)
     print("Client should have posted next FarmVille WKAI")
 
   @commands.command(name='fq', help='Prints the next time a ForeverQuest can be summoned.')

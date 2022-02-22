@@ -120,3 +120,4 @@ settings.yaml
 
 # enviromnent thing
 .vs/
+.vscode/
