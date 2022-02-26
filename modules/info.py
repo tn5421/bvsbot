@@ -1,6 +1,7 @@
 import os
 import yaml
 import discord
+import math
 from discord.ext import commands
 
 data = yaml.load(open("settings.yaml", "r"))
@@ -16,6 +17,20 @@ class info(commands.Cog, name="Information"):
   async def ping(self, ctx: commands.Context):
     await ctx.send('Pong!')
     print("Client should have pinged")
+
+  @commands.command(name='tacos', help='Uses APP to determine whether ' \
+    + 'or not you should use Tacos')
+  async def tacos(self, ctx: commands.Context, userinput: int):
+    tacocount = math.floor(userinput / 60)
+    goldcount = math.floor(userinput / 100)
+
+    tacostam = (95 + (5*tacocount)) * tacocount
+    goldstam = (goldcount * 300)
+
+    choice = f"Tacos provide {tacostam} versus Golden Potions providing {goldstam}"
+
+    await ctx.send(choice)
+    print("Client should have recommended for or against TACOS")
 
   @commands.command(name='version', brief='Prints the bot version', help='Prints the' \
     + 'bot\'s current version, as well as the version of Python it is written for.')

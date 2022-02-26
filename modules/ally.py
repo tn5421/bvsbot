@@ -25,7 +25,8 @@ class ally(commands.Cog, name="Allies"):
     stream.close() # close file.
     
     if userQuery is None:
-      output = "Does not match an ally in the database! Pester tn5421#0271 if this is in error!"
+      output = "Does not match an ally in the database! " \
+        + "Pester Neopolitan#7055 if this is in error!"
     else:
       output = str(userQuery)
       
