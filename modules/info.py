@@ -20,14 +20,14 @@ class info(commands.Cog, name="Information"):
 
   @commands.command(name='tacos', help='Uses APP to determine whether ' \
     + 'or not you should use Tacos')
-  async def tacos(self, ctx: commands.Context, userinput: int):
-    tacocount = math.floor(userinput / 60)
-    goldcount = math.floor(userinput / 100)
+  async def tacos(self, ctx: commands.Context, appetite: int):
+    tacocount = math.floor(appetite / 60)
+    goldcount = math.floor(appetite / 100)
 
     tacostam = (95 + (5*tacocount)) * tacocount
     goldstam = (goldcount * 300)
 
-    choice = f"Tacos provide {tacostam} versus Golden Potions providing {goldstam}"
+    choice = f"Tacos provide {tacostam} Stamina versus Golden Potions providing {goldstam} Stamina"
 
     await ctx.send(choice)
     print("Client should have recommended for or against TACOS")
