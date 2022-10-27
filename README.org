@@ -9,7 +9,7 @@ A discord bot built for the Billy vs SNAKEMAN community!
 ** Dependencies
 
 - An installation of Python 3.9.x with ssl compiled.
-- The following pip packages: discord, yaml, datetime
+- The following pip packages: discord.py, pyyaml, datetime
 - Access to the Discord Developer portal strongly recommended, to generate your own bot key.
 
 ** Usage
